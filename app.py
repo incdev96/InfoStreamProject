@@ -15,9 +15,9 @@ class TextScroller:
 
         # Textes à dérouler
         self.texts = [
-            "Premier informations de la journée.",
-            "Deuxième informations de la journée",
-            "Et la troisième informations de la journée qui défile.",
+            "Première information de la journée à diffuser.",
+            "Deuxième information de la journée à diffuser",
+            "Et la troisième information de la journée qui défile.",
         ]
 
         self.current_text = 0  # Texte actuellement affiché
