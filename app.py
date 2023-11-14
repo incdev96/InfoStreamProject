@@ -3,7 +3,7 @@ import tkinter as tk
 class TextScroller:
     def __init__(self, root):
         self.root = root
-        self.root.title("Text Scroller")
+        self.root.title("Info Stream")
         
         # Déterminez la largeur et la hauteur de l'écran
         screen_width = self.root.winfo_screenwidth()
@@ -15,9 +15,9 @@ class TextScroller:
 
         # Textes à dérouler
         self.texts = [
-            "Texte 1 à dérouler.",
-            "Ceci est le deuxième texte.",
-            "Et voici un troisième texte qui défile.",
+            "Premier informations de la journée.",
+            "Deuxième informations de la journée",
+            "Et la troisième informations de la journée qui défile.",
         ]
 
         self.current_text = 0  # Texte actuellement affiché
